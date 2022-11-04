@@ -6,3 +6,11 @@ Se trata de la programación de un shell que cuenta con modos:
 
 Cada comando se ejecutará como un nuevo proceso.
 El programa cuenta con la posibilidad de exportar la salida de comandos a ficheros, en este caso se indica: comando > ficheroSalida
+
+Comando para compilado:
+gcc -o nombreCompilado codigoFuente.c -Wall -Werror
+
+En mi caso yo realizo:
+gcc -o UVash UVash.c -Wall -Werror
+
+Después desde una terminal ejecutar el compilado (./nombreCompilado en Linux)
